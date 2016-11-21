@@ -1,0 +1,63 @@
+
+@import "normalize.css";
+
+
+body {
+  background: #EDF2F4;
+  padding: 50px;
+  position: relative;
+  overflow: hidden;
+  color: #2B2D42;
+}
+
+body::before {
+	content: "";
+	position: absolute;
+	top: -100px;
+	left: -100px;
+	right: -100px;
+	height: 300px;
+	background: #2B2D42;
+	transform: rotate(-3deg);
+	z-index: -1;
+}
+
+
+h1 {
+	font-size: 50px;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: normal;
+}
+
+.header {
+	color: #EDF2F4;
+	min-height: 200px;
+}
+
+.header__title,
+.header__subtitle {
+	margin: 0;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+.header__subtitle {
+	font-size: 16px;
+	color: #8D99AE;
+}
+
+.header__links {
+	float: right;
+}
+
+.header__links a {
+	text-decoration: none;
+	color: #EDF2F4;
+}
+
+.u-accent {
+	color: #D90429;
+}

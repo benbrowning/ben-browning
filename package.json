@@ -1,0 +1,30 @@
+{
+  "name": "ben-browning",
+  "version": "1.0.0",
+  "description": "CV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postcss": "postcss --config postcss.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benbrowning/ben-browning.git"
+  },
+  "author": "Ben Browning",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benbrowning/ben-browning/issues"
+  },
+  "homepage": "https://github.com/benbrowning/ben-browning",
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.2.0",
+    "postcss-cli": "^2.6.0",
+    "postcss-import": "^8.2.0"
+  },
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  }
+}

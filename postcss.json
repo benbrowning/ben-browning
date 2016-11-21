@@ -1,0 +1,10 @@
+{
+    "use": ["autoprefixer","postcss-import"],
+    "input": "css/input.css",
+    "output": "public/style.css",
+    "local-plugins": true,
+    "watch": true,
+    "autoprefixer": {
+        "browsers": "> 5%"
+    }
+}
